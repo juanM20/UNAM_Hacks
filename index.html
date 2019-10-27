@@ -1,18 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles-index.css">
+    <link rel="stylesheet" href="/css/animate-index.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Index</title>
-</head>
+     <link href="https://fonts.googleapis.com/css?family=Khand|Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Josefin+Slab&display=swap" rel="stylesheet">
 
-<body>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <title>Prototipo UNAMxHacks</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
-
-</body>
-
+  </head>
+  <body>
+    <div class="menu">
+      <div class="logo">
+      </div>
+      <nav>
+        <a href="#nosotros">Objetivo</a>
+        <a href="#criterios">Criterios</a>
+        <a href="#tecnologias">Tecnologías</a>
+      </nav>
+    </div>
+    <div class="main-div">
+      <div class="v-div">
+        <div class="video-landing">
+          <video src="/src/videos/type.mov" autoplay loop></video>
+        </div>
+        <div class="div-overlay"></div>
+        <div class="div-content animated fadeIn">
+          <h1 class="letter-space upper">Comienza tu aventura</h1>
+          <p>Te ayudamos a conseguir empleo según tus habilidades o si eres una empresa puedes buscar a los mejores candidatos para ti</p>
+        </div>
+        <div class="div-content-button">
+          <button type="button" name="button" onclick="Login_user()">Inicia sesión como usuario</button>
+          <button type="button" name="button" onclick="Login_empresa()">Inicia sesión como empresa</button>
+        </div>
+      </div>
+    </div>
+    <div class="division"></div>
+    <section>
+      <div class="div-content2" id="nosotros">
+        <h1 class="letter-space wow animated fadeInUp upper">Objetivo</h1>
+        <p class="animated wow fadeInUp anim">
+          Creemos en un mundo donde el conocimiento no está validado únicamente con la formación tradicional,
+          hoy por hoy la transformación digital ha cambiado la forma en que nos educamos, donde no necesariamente
+          necesitamos un documento que avale nuestras habilidades para enfrentar los nuevos retos que se alzan ante nuestra sociedad.
+          Por ello hemos creado 'Inserte nombre de la plataforma aquí' para medir las habilidades de los candidatos sin documentos académicos
+          para asignarlos a las empresas que buscan su perfil, impulsado por las mejores tecnologías con el fin de conseguir un mundo
+          más brillante para todos.
+        </p>
+        <p class="wow animated fadeInUp anim2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin
+          t occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+      </div>
+    </section>
+    <div class="division"></div>
+    <section>
+      <div class="serv" id="criterios">
+        <h1 class="letter-space wow animated fadeInUp upper">Nuestros criterios de selección</h1>
+        <div class="flex-row">
+          <div class="serv-container-3 wow animated fadeInUp anim">
+            <h2>Habilidades técnicas</h2>
+            <p>Hacemos pruebas de habilidades técnicas según tu área de interés,  se busca que cuentes con el dominio de estos
+              conocimientos para encajar lo mejor posible en un puesto de trabajo ;)
+            </p>
+          </div>
+          <div class="serv-container-3 wow animated fadeInUp anim2">
+            <h2>Pensamiento creativo</h2>
+            <p>
+              Evaluamos tus habilidades para resolver problemas de forma creativa, pues creemos firmemente que siempre es
+              importante saber afrontar la vida de formas inesperadas ;)
+            </p>
+          </div>
+          <div class="serv-container-3 wow animated fadeInUp anim3">
+            <h2>Expresion oral y escrita</h2>
+            <p>
+              En el mundo actual es importante saber transmitir nuestras ideas, por lo que no es raro que las empresas busquen
+              gente capaz de comunicarse de forma eficaz con los demás ;)
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="serv-container-2 wow animated fadeInUp anim6">
+            <h2>Habilidades sociales</h2>
+            <p>Hoy en día es fundamental el trabajo en equipo pues los grandes retos requieren de la cooperación
+              por lo que evaluaremos tus habilidades para participar en un equipo y liderarlo para conseguir los objetivos propuestos ;)
+            </p>
+          </div>
+          <div class="serv-container-2 wow animated fadeInUp anim7">
+            <h2>Organización</h2>
+            <p>Te haremos pruebas de planificación y manejo de prioridad con el fin de valorar tus habilidades de organización y
+              aprovechamiento de recursos, no te preocupes, haz tu mejor esfuerzo ;)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="division"></div>
+    <section>
+      <div class="div-content2" id="tecnologias">
+        <h1 class="letter-space wow animated fadeInUp upper">Tecnologias</h1>
+        <p class="animated wow fadeInUp anim">
+          Para ayudar a conseguir las mejores coincidencias posibles utilizamos tecnologia de IBM Cloud,
+          en especial sus servicios de Inteligencia Artificial provistos por IBM Watson
+        </p>
+        <div class="wow animated fadeInUp anim2">
+          <img src="/src/images/ibm-watson.png" alt="ibm-watson" id="ibm">
+        </div>
+      </div>
+    </section>
+    <footer class="foot">
+      <p>
+        Elaborado por Qubits en UNAMxHacks VI
+      </p>
+    </footer>
+    <script src="scripts/index-script.js"></script>
+    <script src="/scripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      document.getElementById("contact-form").reset();
+    </script>
+  </body>
 </html>
